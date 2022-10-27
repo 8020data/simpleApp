@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("<h1>Welcome to FormR ...<h1>");
 });
 
+app.get("/simpleApp", (req, res) => {
+  res.send("<h1>Welcome to FormR ...<h1>");
+});
+
 app.listen(5000, () => {
   console.log("App listening on port 5000!");
 });
